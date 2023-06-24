@@ -1,4 +1,7 @@
-
+/* 
+ * Created by Idham
+ * juni 2023
+ */
 
 public class App {
     public static void main(String[] args) {
@@ -28,6 +31,13 @@ public class App {
 //    	hulk1.subject = "Besar";
     	hulk1.display();
     	hulk1.greet();
+    	
+    	System.out.println();
+    	Popay popay1 = new Popay("Popay","Pelaut");//constructor
+//    	popay1.name = "Popay";
+//    	popay1.subject = "Pelaut";
+    	popay1.display();
+    	popay1.greet();
 
 
     	
